@@ -1,0 +1,30 @@
+{
+  "name": "app-store-scraper-cli-wrapper",
+  "version": "0.0.1",
+  "description": "CLI wrapper for app-store-scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "app-store-scraper": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exicon/app-store-scraper-cli-wrapper.git"
+  },
+  "keywords": [
+    "app-store-scraper",
+    "cli"
+  ],
+  "author": "Peter Romfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exicon/app-store-scraper-cli-wrapper/issues"
+  },
+  "homepage": "https://github.com/exicon/app-store-scraper-cli-wrapper#readme",
+  "dependencies": {
+    "app-store-scraper": "^0.7.0",
+    "commander": "^2.10.0"
+  }
+}
